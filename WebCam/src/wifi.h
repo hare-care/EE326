@@ -25,7 +25,16 @@
 #define SLAVE_STATE_STATUS         4
 #define SLAVE_STATE_END            5
 
+#define CMD_TEST     0x10101010
+#define CMD_DATA     0x29380000
+#define CMD_STATUS   0x68390384
+#define CMD_END      0x68390484
 #define RC_SYN       0x55AA55AA
+#define RC_RDY       0x12345678
+#define CMD_DATA_MSK 0xFFFF0000
+#define DATA_BLOCK_MSK 0x0000FFFF
+#define NUM_SPCK_CONFIGURATIONS 4
+#define COMM_BUFFER_SIZE   64
 
 
 // SPI variables

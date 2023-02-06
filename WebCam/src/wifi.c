@@ -42,7 +42,7 @@ static void spi_peripheral_initialize(void)
 	prepare_spi_transfer();
 }
 
-static void spi_slave_transfer(void)
+static void prepare_spi_transfer(void)
 {
 	gs_puc_transfer_buffer = &gs_ul_spi_cmd;
 	gs_ul_transfer_length = sizeof(gs_ul_spi_cmd);
