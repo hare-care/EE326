@@ -1,6 +1,7 @@
-Haris Bajramovic
-Tyler Dempski
+Haris Bajramovic and Tyler Dempski
 
 EE326 Github
 
-Mainly for MCU Firmware
+Firmware for WebCam system
+Implemented using a SAM4S8B microcontroller on a custom made PCB
+
