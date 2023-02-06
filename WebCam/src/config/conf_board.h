@@ -11,4 +11,6 @@
 #ifndef CONF_BOARD_H
 #define CONF_BOARD_H
 
+#define SPI_SLAVE_BASE       SPI
+
 #endif // CONF_BOARD_H

@@ -72,6 +72,13 @@
 // From module: Part identification macros
 #include <parts.h>
 
+// From module: SPI - SAM Implementation
+#include <spi_master.h>
+#include <spi_master.h>
+
+// From module: SPI - Serial Peripheral Interface
+#include <spi.h>
+
 // From module: System Clock Control - SAM4S implementation
 #include <sysclk.h>
 
